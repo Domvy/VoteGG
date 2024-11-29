@@ -1,0 +1,56 @@
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 94%;
+  height: 93vh;
+  max-width: 1800px;
+  max-height: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.room-bottom-right {
+  display: flex; /* Flexbox 활성화 */
+  flex-direction: row; /* 가로 배치 */
+  gap: 10px; /* 요소 간 간격 */
+  align-items: center; /* 세로 가운데 정렬 */
+  width: 100%; /* 부모 컨테이너 너비 */
+  background-color: red; /* 테스트용 배경색 */
+}
+
+.room-bottom-right .avatar {
+  flex: none; /* Flexbox 크기 조정 방지 */
+  width: 70%; /* 기존 Avatar 크기 */
+  height: 34vh;
+  max-height: 500px;
+  border: 1.5px solid black;
+}
+
+.room-bottom-right button {
+  flex: none; /* Flexbox 크기 조정 방지 */
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}

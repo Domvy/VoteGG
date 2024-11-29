@@ -1,0 +1,65 @@
+a/* 초대 팝업 */
+.invite-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-content h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.popup-buttons button {
+  flex: 1;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+  background: #007bff;
+  color: white;
+}
+
+.popup-buttons button:last-child {
+  background: #f0f0f0;
+  color: black;
+}
+
+.invite-button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

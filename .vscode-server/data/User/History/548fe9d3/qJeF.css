@@ -1,0 +1,52 @@
+/* src/components/Elements/openvidu/OpenviduFinal.css */
+
+.openvidu-final {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-container {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.user-video {
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+.user-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}

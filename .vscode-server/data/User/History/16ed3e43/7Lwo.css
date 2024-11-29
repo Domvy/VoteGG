@@ -1,0 +1,6 @@
+.avatar {
+  display: block;
+  width: 70%; 
+  height: 34vh; 
+  max-height: 500px;
+}

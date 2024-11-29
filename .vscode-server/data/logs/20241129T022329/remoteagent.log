@@ -1,0 +1,553 @@
+2024-11-29 02:23:30.009 [info] 
+
+
+
+
+2024-11-29 02:23:30.024 [info] Extension host agent started.
+2024-11-29 02:23:30.098 [info] [<unknown>][cd2f6bba][ManagementConnection] New connection established.
+2024-11-29 02:23:30.110 [info] [<unknown>][92943b65][ExtensionHostConnection] New connection established.
+2024-11-29 02:23:30.217 [info] [<unknown>][92943b65][ExtensionHostConnection] <474175> Launched Extension Host Process.
+2024-11-29 02:28:30.026 [info] New EH opened, aborting shutdown
+2024-11-29 02:58:08.525 [info] [<unknown>][cd2f6bba][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-11-29 03:47:27.166 [info] [<unknown>][cd2f6bba][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-11-29 03:47:27.168 [info] [<unknown>][f22c9ba9][ManagementConnection] New connection established.
+2024-11-29 03:47:27.170 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-11-29 03:47:27.183 [info] [<unknown>][6db05459][ExtensionHostConnection] New connection established.
+2024-11-29 03:47:27.191 [info] [<unknown>][6db05459][ExtensionHostConnection] <478369> Launched Extension Host Process.
+2024-11-29 03:52:27.427 [info] [<unknown>][92943b65][ExtensionHostConnection] <474175> Extension Host Process exited with code: 0, signal: null.
+2024-11-29 03:52:27.570 [info] [<unknown>][cd2f6bba][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-11-29 08:10:52.865 [info] [<unknown>][f22c9ba9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-29 08:10:53.094 [info] [<unknown>][6db05459][ExtensionHostConnection] <478369> Extension Host Process exited with code: 0, signal: null.
+2024-11-29 08:10:53.096 [info] Last EH closed, waiting before shutting down
+2024-11-29 08:11:07.364 [info] [<unknown>][c0547acd][ManagementConnection] New connection established.
+2024-11-29 08:11:07.378 [info] [<unknown>][9615cd84][ExtensionHostConnection] New connection established.
+2024-11-29 08:11:07.382 [info] [<unknown>][9615cd84][ExtensionHostConnection] <501278> Launched Extension Host Process.
+2024-11-29 08:15:50.169 [info] [<unknown>][c0547acd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-29 08:15:50.273 [info] [<unknown>][9615cd84][ExtensionHostConnection] <501278> Extension Host Process exited with code: 0, signal: null.
+2024-11-29 08:15:50.274 [info] Cancelling previous shutdown timeout
+2024-11-29 08:15:50.274 [info] Last EH closed, waiting before shutting down
+2024-11-29 08:16:09.485 [info] [<unknown>][e75c536f][ExtensionHostConnection] New connection established.
+2024-11-29 08:16:09.491 [info] [<unknown>][e75c536f][ExtensionHostConnection] <502156> Launched Extension Host Process.
+2024-11-29 08:16:09.496 [info] [<unknown>][fff81cca][ManagementConnection] New connection established.
+2024-11-29 08:16:31.509 [info] [<unknown>][fff81cca][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-29 08:16:31.558 [info] [<unknown>][e75c536f][ExtensionHostConnection] <502156> Extension Host Process exited with code: 0, signal: null.
+2024-11-29 08:16:31.559 [info] Cancelling previous shutdown timeout
+2024-11-29 08:16:31.559 [info] Last EH closed, waiting before shutting down
+2024-11-29 08:16:34.437 [info] [<unknown>][2f0bcc82][ExtensionHostConnection] New connection established.
+2024-11-29 08:16:34.443 [info] [<unknown>][2f0bcc82][ExtensionHostConnection] <502359> Launched Extension Host Process.
+2024-11-29 08:16:34.448 [info] [<unknown>][38fc8042][ManagementConnection] New connection established.
+2024-11-29 08:21:31.561 [info] New EH opened, aborting shutdown
+2024-11-29 08:34:03.821 [info] [<unknown>][38fc8042][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-29 08:34:03.931 [info] [<unknown>][2f0bcc82][ExtensionHostConnection] <502359> Extension Host Process exited with code: 0, signal: null.
+2024-11-29 08:34:03.932 [info] Last EH closed, waiting before shutting down
+2024-11-29 08:34:08.100 [info] [<unknown>][a9fe1e74][ExtensionHostConnection] New connection established.
+2024-11-29 08:34:08.105 [info] [<unknown>][a9fe1e74][ExtensionHostConnection] <504341> Launched Extension Host Process.
+2024-11-29 08:34:08.116 [info] [<unknown>][1a7364fb][ManagementConnection] New connection established.
+2024-11-29 08:34:10.336 [error] CodeExpectedError: Could not find pty 4 on pty host
+    at I.W (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/ubuntu/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-29 08:39:03.931 [info] New EH opened, aborting shutdown
+2024-11-29 08:53:52.897 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:52.903 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:53.340 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:53.341 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.045 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.046 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.049 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.050 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.053 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.057 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.061 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.062 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.062 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.065 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.066 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.069 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.070 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.070 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.074 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.081 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.082 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.083 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.085 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.086 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.091 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.092 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.095 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.096 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.096 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.099 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.100 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.102 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.103 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.107 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.109 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.111 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.112 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.114 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.116 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.120 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.124 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.125 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.128 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.132 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.136 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.156 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.157 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.159 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.162 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.162 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.165 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.166 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.167 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.169 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.170 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.173 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.173 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.174 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.177 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.177 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:54.178 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.240 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.248 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.254 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.257 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.265 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.266 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.266 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.267 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.271 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.272 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.272 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.273 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.275 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.275 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.279 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.279 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.280 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.282 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.286 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.288 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.291 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.292 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.295 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.297 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.304 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.304 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.308 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.309 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.309 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.310 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.313 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.317 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.320 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.321 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.324 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.325 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.326 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.616 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.619 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.622 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.624 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.627 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.631 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.632 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.632 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.635 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.636 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.637 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.641 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.641 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.644 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.673 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.678 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.684 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.687 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.688 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.688 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.691 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.692 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.692 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.695 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.695 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.696 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.697 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.699 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.727 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.728 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.729 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.731 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.734 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.734 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.735 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.736 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.736 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.739 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.739 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.740 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.741 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.743 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.744 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.744 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.747 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.748 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.748 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.749 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.751 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.752 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.752 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.755 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.756 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.756 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.759 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.759 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.760 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.763 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.763 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.764 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.764 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.765 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.765 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.766 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.769 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.769 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.770 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.773 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.776 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.777 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.779 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.780 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.977 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.978 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.983 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.985 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:55.988 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.610 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.614 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.615 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.622 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.625 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.625 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.633 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.643 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.646 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.646 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.654 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.655 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.655 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.656 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.658 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.666 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.667 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.672 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.673 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.673 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.676 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.676 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.677 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.677 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.680 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.681 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.684 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.685 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.687 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.688 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.690 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.691 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.691 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.694 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.695 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.696 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.698 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.698 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.699 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.699 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.700 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.700 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.701 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.702 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:57.703 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.046 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.049 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.055 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.080 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.081 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.086 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.087 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.090 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.090 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.096 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.097 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.101 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.102 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.103 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.103 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.106 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.109 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.110 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.110 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.120 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.120 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.124 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.131 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.135 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.136 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.139 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.139 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.140 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.143 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.143 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.144 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.147 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.147 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.148 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.149 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.151 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.152 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.155 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.156 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.157 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.157 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.158 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.158 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.161 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.164 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.164 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.165 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.168 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.168 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.169 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.170 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.170 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.173 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.174 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.177 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.178 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.178 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.181 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.182 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.183 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.187 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.188 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.191 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.192 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.192 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.195 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.196 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.197 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.200 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.201 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.202 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.206 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.206 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.207 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.209 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.210 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.213 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.214 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.218 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.218 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.221 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.221 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.222 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.223 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.225 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.230 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.230 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.231 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.232 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.233 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.233 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.234 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.234 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.235 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.236 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.236 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.237 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.238 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.238 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.239 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.240 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.240 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.241 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.242 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.242 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.243 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.244 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.245 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.245 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.246 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.247 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.248 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.248 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.249 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.250 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.251 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.254 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.255 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.256 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.257 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.257 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.258 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.259 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.260 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.261 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.261 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.262 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.263 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.263 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.264 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.264 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.265 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.266 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.267 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.268 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.269 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.275 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.275 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.276 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.277 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.277 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.278 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.279 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.279 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.280 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.281 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.281 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.282 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.283 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.283 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.284 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.285 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.286 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.287 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.287 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.288 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.291 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.294 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.295 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.295 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.296 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.299 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.300 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.301 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.302 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.302 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.303 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.304 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.304 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.305 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.306 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.306 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.307 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.308 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.309 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.309 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.310 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.311 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.311 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.312 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.313 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.313 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.314 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.315 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.315 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.317 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.318 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.320 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.370 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:58.372 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.850 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.851 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.857 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.858 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.863 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.866 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.867 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.869 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.874 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:53:59.999 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.042 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.058 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.065 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.065 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.072 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.073 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.076 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.077 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.085 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.087 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.092 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.096 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.098 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.101 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:00.522 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.492 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.494 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.495 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.498 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.499 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.581 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.586 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.587 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.587 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.591 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.592 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.595 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.595 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.596 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.601 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.606 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.607 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.612 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.612 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.613 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.613 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.617 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.619 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.621 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.622 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.622 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.624 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.626 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.627 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.630 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.631 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.632 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.636 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.637 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.638 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.642 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.645 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.651 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.651 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.652 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.653 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.653 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.654 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.654 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.664 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.667 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:01.674 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.432 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.439 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.444 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.448 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.449 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.452 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.453 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.453 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-11-29 08:54:02.459 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

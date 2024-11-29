@@ -1,0 +1,57 @@
+2024-11-27 04:32:40.566 [info] [main] 로그 수준: Info
+2024-11-27 04:32:40.566 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-27 04:32:40.566 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-27 04:32:40.566 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-27 04:32:40.566 [info] > git rev-parse --show-toplevel [309ms]
+2024-11-27 04:32:40.575 [info] > git rev-parse --git-dir --git-common-dir [471ms]
+2024-11-27 04:32:40.729 [info] [Model][openRepository] Opened repository: /home/ubuntu/test/AGORA
+2024-11-27 04:32:41.025 [info] > git rev-parse --show-toplevel [118ms]
+2024-11-27 04:32:41.032 [info] > git config --get commit.template [153ms]
+2024-11-27 04:32:42.055 [info] > git check-ignore -v -z --stdin [34ms]
+2024-11-27 04:32:42.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [970ms]
+2024-11-27 04:32:42.067 [info] > git rev-parse --show-toplevel [1004ms]
+2024-11-27 04:32:42.067 [info] > git fetch [1339ms]
+2024-11-27 04:32:42.092 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/test/AGORA/.git/refs/remotes/origin/main'
+2024-11-27 04:32:42.136 [info] > git rev-parse --show-toplevel [27ms]
+2024-11-27 04:32:42.139 [info] > git rev-parse refs/remotes/origin/main [45ms]
+2024-11-27 04:32:42.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [88ms]
+2024-11-27 04:32:42.274 [info] > git config --get commit.template [151ms]
+2024-11-27 04:32:42.305 [info] > git config --local branch.main.vscode-merge-base [32ms]
+2024-11-27 04:32:42.341 [info] > git config --get commit.template [132ms]
+2024-11-27 04:32:42.341 [info] > git rev-parse --show-toplevel [146ms]
+2024-11-27 04:32:42.363 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [73ms]
+2024-11-27 04:32:42.396 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/test/AGORA/.git/refs/remotes/origin/main'
+2024-11-27 04:32:42.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [57ms]
+2024-11-27 04:32:42.431 [info] > git rev-parse refs/remotes/origin/main [35ms]
+2024-11-27 04:32:42.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [86ms]
+2024-11-27 04:32:42.467 [info] > git rev-parse --show-toplevel [111ms]
+2024-11-27 04:32:42.491 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/test/AGORA/.git/refs/remotes/origin/main'
+2024-11-27 04:32:42.512 [info] > git merge-base refs/heads/main refs/remotes/origin/main [55ms]
+2024-11-27 04:32:42.530 [info] > git merge-base refs/heads/main refs/remotes/origin/main [109ms]
+2024-11-27 04:32:42.562 [info] > git diff --name-status -z --diff-filter=ADMR cd00b8a013916e6d77cfedc63f80b3456f784873...refs/remotes/origin/main [32ms]
+2024-11-27 04:32:42.563 [info] > git rev-parse --show-toplevel [52ms]
+2024-11-27 04:32:42.587 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-27 04:32:42.620 [info] > git rev-parse refs/remotes/origin/main [128ms]
+2024-11-27 04:32:42.662 [info] > git show --textconv :client/src/pages/main/debate/DebateRoom.js [58ms]
+2024-11-27 04:32:42.663 [info] > git ls-files --stage -- /home/ubuntu/test/AGORA/client/src/pages/main/debate/DebateRoom.js [43ms]
+2024-11-27 04:32:42.689 [info] > git diff --name-status -z --diff-filter=ADMR cd00b8a013916e6d77cfedc63f80b3456f784873...refs/remotes/origin/main [145ms]
+2024-11-27 04:32:42.699 [info] > git cat-file -s c14a11179010023cf7b8b7983a9a409c3e61cf2a [11ms]
+2024-11-27 04:32:42.714 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [54ms]
+2024-11-27 04:32:44.105 [info] > git status -z -uall [1469ms]
+2024-11-27 04:33:01.041 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-27 04:33:02.914 [info] > git config --get commit.template [19ms]
+2024-11-27 04:33:02.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-27 04:33:02.942 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/test/AGORA/.git/refs/remotes/origin/main'
+2024-11-27 04:33:02.949 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-11-27 04:33:02.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-27 04:33:03.667 [info] > git status -z -uall [709ms]
+2024-11-27 04:36:00.052 [info] > git fetch [591ms]
+2024-11-27 04:36:00.069 [info] > git config --get commit.template [7ms]
+2024-11-27 04:36:00.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-27 04:36:00.073 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/test/AGORA/.git/refs/remotes/origin/main'
+2024-11-27 04:36:00.075 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-11-27 04:36:00.100 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-27 04:36:00.436 [info] > git status -z -uall [357ms]
+2024-11-27 04:36:01.485 [info] > git ls-files --stage -- /home/ubuntu/test/AGORA/client/src/pages/main/debate/DebateRoom.js [12ms]
+2024-11-27 04:36:01.511 [info] > git cat-file -s c14a11179010023cf7b8b7983a9a409c3e61cf2a [10ms]
+2024-11-27 04:36:01.547 [info] > git show --textconv :client/src/pages/main/debate/DebateRoom.js [6ms]

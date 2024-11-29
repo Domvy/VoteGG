@@ -1,0 +1,52 @@
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 94%;
+  height: 93vh;
+  max-width: 1800px;
+  max-height: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+.room-bottom-right {
+  display: flex; 
+  flex-direction: row; 
+  gap: 10px; 
+  align-items: center; 
+  width: 100%; 
+  background-color: red;
+}
+
+.room-bottom-right button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.room-bottom-right button:hover {
+  background-color: #0056b3;
+}

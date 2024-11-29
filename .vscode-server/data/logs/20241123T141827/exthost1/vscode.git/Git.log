@@ -1,0 +1,30 @@
+2024-11-23 14:18:34.860 [info] [main] 로그 수준: Info
+2024-11-23 14:18:34.860 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-23 14:18:34.860 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-23 14:18:34.860 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-23 14:18:34.860 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-23 14:18:34.860 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-23 14:18:34.860 [info] [Model][openRepository] Opened repository: /home/ubuntu/Project-Agora
+2024-11-23 14:18:34.860 [info] > git rev-parse --show-toplevel [19ms]
+2024-11-23 14:18:34.860 [info] > git config --get commit.template [25ms]
+2024-11-23 14:18:34.879 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-23 14:18:34.885 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-23 14:18:34.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [95ms]
+2024-11-23 14:18:35.019 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2024-11-23 14:18:35.098 [info] > git status -z -uall [123ms]
+2024-11-23 14:18:35.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-23 14:18:35.169 [info] > git config --get commit.template [50ms]
+2024-11-23 14:18:35.187 [info] > git config --local branch.main.vscode-merge-base [51ms]
+2024-11-23 14:18:35.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [36ms]
+2024-11-23 14:18:35.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-11-23 14:18:35.251 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-11-23 14:18:35.270 [info] > git diff --name-status -z --diff-filter=ADMR 33b14b1a68e3e5ed0ef9b4ff1ab958473054c550...refs/remotes/origin/main [14ms]
+2024-11-23 14:18:35.271 [info] > git status -z -uall [10ms]
+2024-11-23 14:18:35.274 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-23 14:18:35.463 [info] > git check-ignore -v -z --stdin [10ms]
+2024-11-23 14:18:55.375 [info] > git config --get commit.template [10ms]
+2024-11-23 14:18:55.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-23 14:18:55.412 [info] > git status -z -uall [21ms]
+2024-11-23 14:18:55.427 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-11-23 14:19:54.684 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-23 14:19:55.268 [info] > git check-ignore -v -z --stdin [2ms]

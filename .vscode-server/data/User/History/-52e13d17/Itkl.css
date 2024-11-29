@@ -1,0 +1,38 @@
+.roomcontrol {
+  display: flex; /* Flexbox 활성화 */
+  flex-direction: row; /* 가로 배치 */
+  align-items: center; /* 세로 가운데 정렬 */
+  gap: 10px; /* 요소 간 간격 */
+  width: 100%; /* 필요에 따라 너비 설정 */
+  height: 32vh;
+  background-color: #ff0000; /* 테스트용 배경색 */
+  
+}
+
+.aa {
+  width: 60%;
+  background-color: blue;
+}
+
+.roomcontrol .avatar {
+  flex: none; /* Avatar 크기 조정 방지 */
+  width: 100%; /* 기존 Avatar 크기 */
+  height: 1; /* 기본 높이 유지 */
+  border: 1.5px solid black; /* 기존 스타일 유지 */
+}
+
+.roomcontrol button {
+  flex: none; /* 버튼 크기 조정 방지 */
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.roomcontrol button:hover {
+  background-color: #0056b3;
+}

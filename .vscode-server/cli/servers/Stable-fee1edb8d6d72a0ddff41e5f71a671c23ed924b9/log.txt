@@ -1,0 +1,33 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-38d9aa83-77db-4545-beee-5611a3d8f628
+Extension host agent listening on /tmp/code-38d9aa83-77db-4545-beee-5611a3d8f628
+
+[04:56:44] 
+
+
+
+
+[04:56:45] Extension host agent started.
+[04:56:45] [<unknown>][39b79651][ManagementConnection] New connection established.
+[04:56:45] [<unknown>][be4c4004][ExtensionHostConnection] New connection established.
+Generating translation files failed. Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/nls.keys.json'
+    at async open (node:internal/fs/promises:636:25)
+    at async Object.readFile (node:internal/fs/promises:1246:14)
+    at async o (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/server/node/server.main.js:101:3836)
+    at async g (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/server/node/server.main.js:182:71094)
+    at async i.start (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/server/node/server.main.js:182:73906) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/nls.keys.json'
+}
+[04:56:45] [<unknown>][be4c4004][ExtensionHostConnection] <40419> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[05:01:45] New EH opened, aborting shutdown
+[05:58:20] [<unknown>][39b79651][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

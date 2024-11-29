@@ -1,0 +1,38 @@
+2024-11-27 01:57:51.508 [info] [main] 로그 수준: Info
+2024-11-27 01:57:51.508 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-27 01:57:51.508 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-27 01:57:51.508 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-27 01:57:51.508 [info] > git rev-parse --show-toplevel [7ms]
+2024-11-27 01:57:51.508 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.579 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-27 01:57:51.579 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.584 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-27 01:57:51.584 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.590 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-27 01:57:51.590 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.595 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-27 01:57:51.595 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.600 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-27 01:57:51.600 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.605 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-27 01:57:51.605 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.610 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-27 01:57:51.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-27 01:57:51.615 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-27 01:57:51.621 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-27 01:57:51.635 [info] [Model][openRepository] Opened repository: /home/ubuntu/Project-Agora
+2024-11-27 01:57:51.640 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (3), parent repositories (0), unsafe repositories (0)
+2024-11-27 01:57:51.654 [info] > git config --get commit.template [8ms]
+2024-11-27 01:57:51.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-27 01:57:51.671 [info] > git status -z -uall [9ms]
+2024-11-27 01:57:51.676 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-27 01:57:51.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-11-27 01:57:51.715 [info] > git config --get commit.template [7ms]
+2024-11-27 01:57:51.721 [info] > git config --local branch.main.vscode-merge-base [7ms]
+2024-11-27 01:57:51.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [58ms]
+2024-11-27 01:57:51.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [77ms]
+2024-11-27 01:57:51.800 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-11-27 01:57:51.819 [info] > git status -z -uall [9ms]
+2024-11-27 01:57:51.820 [info] > git diff --name-status -z --diff-filter=ADMR 1700c1d8c39666669222da70785a8c2103de3fa9...refs/remotes/origin/main [16ms]
+2024-11-27 01:57:51.823 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-27 01:57:52.209 [info] > git check-ignore -v -z --stdin [2ms]

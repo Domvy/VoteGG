@@ -1,0 +1,43 @@
+.room {
+  display: flex;
+  /* 가로 배치 */
+  justify-content: space-between;
+  /* 좌우 배치, 필요에 따라 조정 */
+  align-items: flex-start;
+  /* 세로 정렬 */
+  width: 94%;
+  height: 93vh;
+  max-width: 1800px;
+  max-height: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  /* 패딩 포함 크기 계산 */
+
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+/* .room-bottom-right {
+  display: flex; 
+  flex-direction: row; 
+  gap: 10px;
+  justify-content: flex-start; 
+  width: 100%;
+  height: auto;
+} */

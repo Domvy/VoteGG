@@ -1,0 +1,5 @@
+.avatar {
+  display: block;
+  width: 500px; /* 기본 너비 */
+  height: 290px; /* 기본 높이 */
+}

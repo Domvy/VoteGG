@@ -1,0 +1,38 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "interactiveWindow.executeWithShiftEnter": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "remote.SSH.remotePlatform": {
+    "ubuntu_22_04": "linux"
+  },
+  "makefile.configureOnOpen": true,
+  "editor.tabSize": 2,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "workbench.editorAssociations": {
+    "*.bin": "default"
+  },
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

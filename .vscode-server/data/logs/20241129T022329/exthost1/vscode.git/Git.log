@@ -1,0 +1,66 @@
+2024-11-29 02:23:34.753 [info] [main] 로그 수준: Info
+2024-11-29 02:23:34.753 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-29 02:23:34.753 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-29 02:23:34.753 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-29 02:23:34.753 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-29 02:23:34.753 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-11-29 02:23:34.753 [info] [Model][openRepository] Opened repository: /home/ubuntu/Project-Agora
+2024-11-29 02:23:34.770 [info] > git rev-parse --show-toplevel [189ms]
+2024-11-29 02:23:34.781 [info] > git config --get commit.template [248ms]
+2024-11-29 02:23:35.387 [info] > git check-ignore -v -z --stdin [83ms]
+2024-11-29 02:23:35.398 [info] > git rev-parse --show-toplevel [573ms]
+2024-11-29 02:23:35.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2024-11-29 02:23:35.447 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 02:23:35.686 [info] > git status -z -uall [180ms]
+2024-11-29 02:23:35.698 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [139ms]
+2024-11-29 02:23:35.813 [info] > git rev-parse --show-toplevel [333ms]
+2024-11-29 02:23:35.952 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [165ms]
+2024-11-29 02:23:35.993 [info] > git rev-parse --show-toplevel [47ms]
+2024-11-29 02:23:36.019 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-29 02:23:36.091 [info] > git config --get commit.template [164ms]
+2024-11-29 02:23:37.025 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [962ms]
+2024-11-29 02:23:37.028 [info] > git ls-files --stage -- /home/ubuntu/Project-Agora/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [938ms]
+2024-11-29 02:23:37.046 [info] > git fetch [2576ms]
+2024-11-29 02:23:37.046 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Domvy/Project-Agora.git/'
+2024-11-29 02:23:37.055 [info] > git config --local branch.main.vscode-merge-base [1078ms]
+2024-11-29 02:23:37.138 [info] > git cat-file -s dc74bab6964c390a0513f9da4ac56f8d056c6985 [98ms]
+2024-11-29 02:23:37.157 [info] > git config --get commit.template [20ms]
+2024-11-29 02:23:37.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-11-29 02:23:37.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [78ms]
+2024-11-29 02:23:37.227 [info] > git merge-base refs/heads/main refs/remotes/origin/main [39ms]
+2024-11-29 02:23:37.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-11-29 02:23:37.290 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2024-11-29 02:23:37.312 [info] > git diff --name-status -z --diff-filter=ADMR ee324f52e897252e3247c75fc6476f695944853c...refs/remotes/origin/main [67ms]
+2024-11-29 02:23:37.334 [info] > git diff --name-status -z --diff-filter=ADMR ee324f52e897252e3247c75fc6476f695944853c...refs/remotes/origin/main [23ms]
+2024-11-29 02:23:37.393 [info] > git status -z -uall [30ms]
+2024-11-29 02:23:37.428 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2024-11-29 02:26:11.177 [info] > git config --get commit.template [3ms]
+2024-11-29 02:26:11.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-29 02:26:11.253 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2024-11-29 02:26:11.257 [info] > git status -z -uall [45ms]
+2024-11-29 02:26:16.289 [info] > git config --get commit.template [9ms]
+2024-11-29 02:26:16.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-29 02:26:16.313 [info] > git status -z -uall [11ms]
+2024-11-29 02:26:16.317 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-29 02:26:21.329 [info] > git config --get commit.template [5ms]
+2024-11-29 02:26:21.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-29 02:26:21.342 [info] > git status -z -uall [7ms]
+2024-11-29 02:26:21.346 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-29 02:26:35.537 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 02:28:03.148 [info] > git config --get commit.template [7ms]
+2024-11-29 02:28:03.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-29 02:28:03.185 [info] > git status -z -uall [6ms]
+2024-11-29 02:28:03.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-29 02:28:08.207 [info] > git config --get commit.template [9ms]
+2024-11-29 02:28:08.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-29 02:28:08.248 [info] > git status -z -uall [24ms]
+2024-11-29 02:28:08.259 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2024-11-29 02:29:45.333 [info] > git config --get commit.template [15ms]
+2024-11-29 02:29:45.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-29 02:29:45.383 [info] > git status -z -uall [21ms]
+2024-11-29 02:29:45.401 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]

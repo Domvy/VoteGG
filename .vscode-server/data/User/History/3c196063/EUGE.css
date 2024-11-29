@@ -1,0 +1,30 @@
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 94%;
+  height: 91vh;
+  max-width: 1800px;
+  max-height: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+

@@ -1,0 +1,267 @@
+2024-11-29 08:34:10.391 [info] [main] 로그 수준: Info
+2024-11-29 08:34:10.391 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-29 08:34:10.391 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-29 08:34:10.391 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-29 08:34:10.391 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-29 08:34:10.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.402 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:10.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.408 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:10.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.414 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:10.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.419 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:10.419 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.433 [info] > git rev-parse --show-toplevel [8ms]
+2024-11-29 08:34:10.433 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.449 [info] > git rev-parse --show-toplevel [12ms]
+2024-11-29 08:34:10.449 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.459 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-29 08:34:10.459 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.473 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-29 08:34:10.493 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-11-29 08:34:10.554 [info] [Model][openRepository] Opened repository: /home/ubuntu/Project-Agora
+2024-11-29 08:34:10.660 [info] > git rev-parse --show-toplevel [20ms]
+2024-11-29 08:34:10.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.665 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-29 08:34:10.665 [info] > git config --get commit.template [31ms]
+2024-11-29 08:34:10.676 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-29 08:34:10.676 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:10.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [3ms]
+2024-11-29 08:34:10.688 [info] > git status -z -uall [7ms]
+2024-11-29 08:34:10.693 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-29 08:34:10.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [12ms]
+2024-11-29 08:34:10.722 [info] > git config --get commit.template [7ms]
+2024-11-29 08:34:10.726 [info] > git config --local branch.audio-final.vscode-merge-base [6ms]
+2024-11-29 08:34:10.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [7ms]
+2024-11-29 08:34:10.741 [info] > git status -z -uall [6ms]
+2024-11-29 08:34:10.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2024-11-29 08:34:10.760 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-11-29 08:34:10.881 [info] > git rev-parse --show-toplevel [20ms]
+2024-11-29 08:34:10.881 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:11.157 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:34:11.536 [info] > git fetch [985ms]
+2024-11-29 08:34:11.536 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:34:11.546 [info] > git config --get commit.template [4ms]
+2024-11-29 08:34:11.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [2ms]
+2024-11-29 08:34:11.561 [info] > git status -z -uall [9ms]
+2024-11-29 08:34:11.567 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-29 08:34:11.570 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-29 08:34:11.570 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:12.898 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-29 08:34:12.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:17.579 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:17.579 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:18.553 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-29 08:34:18.553 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:33.624 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:33.624 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:34.391 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-29 08:34:34.391 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:36.746 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-29 08:34:36.746 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:37.236 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-29 08:34:37.236 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:54.354 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-29 08:34:54.354 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:34:54.803 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-29 08:34:54.803 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-29 08:37:12.553 [info] > git fetch [979ms]
+2024-11-29 08:37:12.553 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:37:12.565 [info] > git config --get commit.template [6ms]
+2024-11-29 08:37:12.567 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [4ms]
+2024-11-29 08:37:12.589 [info] > git status -z -uall [12ms]
+2024-11-29 08:37:12.594 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-29 08:37:22.820 [info] > git config --get commit.template [5ms]
+2024-11-29 08:37:22.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [3ms]
+2024-11-29 08:37:22.835 [info] > git status -z -uall [10ms]
+2024-11-29 08:37:22.838 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-29 08:37:54.626 [info] > git config --get commit.template [6ms]
+2024-11-29 08:37:54.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [2ms]
+2024-11-29 08:37:54.643 [info] > git status -z -uall [6ms]
+2024-11-29 08:37:54.648 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-29 08:38:32.308 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-29 08:38:32.323 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-29 08:38:32.349 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2024-11-29 08:38:32.357 [info] > git fetch [9ms]
+2024-11-29 08:38:32.363 [info] > git config --get commit.template [7ms]
+2024-11-29 08:38:32.368 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-29 08:38:32.369 [info] > git config --get commit.template [6ms]
+2024-11-29 08:38:32.372 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-29 08:38:32.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-11-29 08:38:32.373 [warning] [Git][getBranch] No such branch: master
+2024-11-29 08:38:32.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-11-29 08:38:32.389 [warning] [Git][getBranch] No such branch: master
+2024-11-29 08:38:32.390 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-29 08:38:32.391 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2024-11-29 08:38:32.391 [warning] [Git][getBranch] No such branch: master
+2024-11-29 08:38:32.394 [info] > git config --get commit.template [9ms]
+2024-11-29 08:38:32.398 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-29 08:38:32.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-29 08:38:32.400 [warning] [Git][getBranch] No such branch: master
+2024-11-29 08:38:32.434 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2024-11-29 08:38:32.743 [info] > git status -z -uall [339ms] (cancelled)
+2024-11-29 08:38:32.897 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-29 08:38:32.899 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-29 08:38:32.938 [info] > git show --textconv :.ssh/authorized_keys [7ms]
+2024-11-29 08:38:32.940 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [4ms]
+2024-11-29 08:38:33.750 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [3ms]
+2024-11-29 08:38:33.787 [info] > git show --textconv :.ssh/authorized_keys [4ms]
+2024-11-29 08:38:43.265 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [2ms]
+2024-11-29 08:38:43.306 [info] > git show --textconv :.ssh/authorized_keys [3ms]
+2024-11-29 08:40:40.184 [info] > git fetch [978ms]
+2024-11-29 08:40:40.184 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:40:40.212 [info] > git config --get commit.template [19ms]
+2024-11-29 08:40:40.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [8ms]
+2024-11-29 08:40:40.243 [info] > git status -z -uall [9ms]
+2024-11-29 08:40:40.248 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-29 08:40:42.301 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [7ms]
+2024-11-29 08:40:42.342 [info] > git show --textconv :.ssh/authorized_keys [7ms]
+2024-11-29 08:40:52.373 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [2ms]
+2024-11-29 08:40:52.411 [info] > git show --textconv :.ssh/authorized_keys [1ms]
+2024-11-29 08:41:25.690 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [110ms]
+2024-11-29 08:41:25.690 [info] fatal: bad revision 'refs/heads/master'
+2024-11-29 08:41:25.693 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2024-11-29 08:41:26.182 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:41:33.092 [info] > git fetch [692ms]
+2024-11-29 08:41:33.093 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Domvy/Project-Agora.git/'
+2024-11-29 08:41:33.118 [info] > git config --get commit.template [14ms]
+2024-11-29 08:41:33.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-29 08:41:33.118 [warning] [Git][getBranch] No such branch: master
+2024-11-29 08:41:33.157 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-29 08:41:37.410 [info] > git status -z -uall [4284ms] (cancelled)
+2024-11-29 08:41:37.413 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [8ms]
+2024-11-29 08:41:37.459 [info] > git show --textconv :.ssh/authorized_keys [3ms]
+2024-11-29 08:41:38.357 [info] > git config --get commit.template [22ms]
+2024-11-29 08:41:38.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-11-29 08:41:38.390 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-29 08:41:40.175 [info] > git status -z -uall [1800ms] (cancelled)
+2024-11-29 08:41:40.220 [info] > git ls-files --stage -- /home/ubuntu/.ssh/authorized_keys [11ms]
+2024-11-29 08:41:40.258 [info] > git show --textconv :.ssh/authorized_keys [4ms]
+2024-11-29 08:42:05.272 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6163ms]
+2024-11-29 08:42:32.963 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:42:43.909 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-29 08:42:46.341 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:42:49.843 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:42:57.934 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:43:20.161 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:43:38.083 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:43:39.850 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:43:41.250 [info] > git fetch [991ms]
+2024-11-29 08:43:41.250 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:43:41.271 [info] > git config --get commit.template [13ms]
+2024-11-29 08:43:41.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [4ms]
+2024-11-29 08:43:41.302 [info] > git status -z -uall [16ms]
+2024-11-29 08:43:41.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-11-29 08:43:48.732 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:43:50.188 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-29 08:43:51.901 [info] > git check-ignore -v -z --stdin [7ms]
+2024-11-29 08:44:01.684 [info] > git check-ignore -v -z --stdin [12ms]
+2024-11-29 08:44:03.065 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:44:03.975 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:44:07.614 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:44:10.350 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:44:17.606 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [23ms]
+2024-11-29 08:44:17.606 [info] > git ls-files --stage -- /home/ubuntu/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [14ms]
+2024-11-29 08:44:17.733 [info] > git cat-file -s f0d48b1e3adfc6782757a9c6bbbbd6c011018396 [118ms]
+2024-11-29 08:44:52.189 [info] > git ls-files --stage -- /home/ubuntu/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [2ms]
+2024-11-29 08:44:52.195 [info] > git cat-file -s f0d48b1e3adfc6782757a9c6bbbbd6c011018396 [1ms]
+2024-11-29 08:44:52.234 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [4ms]
+2024-11-29 08:46:45.306 [info] > git fetch [1021ms]
+2024-11-29 08:46:45.306 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:46:45.319 [info] > git config --get commit.template [1ms]
+2024-11-29 08:46:45.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [5ms]
+2024-11-29 08:46:45.363 [info] > git status -z -uall [19ms]
+2024-11-29 08:46:45.370 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-29 08:47:10.547 [info] > git config --get commit.template [2ms]
+2024-11-29 08:47:10.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-29 08:47:10.588 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-29 08:47:12.424 [info] > git status -z -uall [1852ms] (cancelled)
+2024-11-29 08:47:20.783 [info] > git config --get commit.template [15ms]
+2024-11-29 08:47:20.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-29 08:47:20.806 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-29 08:47:22.805 [info] > git status -z -uall [2011ms] (cancelled)
+2024-11-29 08:47:43.047 [info] > git config --get commit.template [12ms]
+2024-11-29 08:47:43.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-29 08:47:43.101 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-11-29 08:47:44.968 [info] > git status -z -uall [1902ms] (cancelled)
+2024-11-29 08:49:46.286 [info] > git config --get commit.template [6ms]
+2024-11-29 08:49:46.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-29 08:49:46.305 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-29 08:49:46.377 [info] > git fetch [992ms]
+2024-11-29 08:49:46.378 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2024-11-29 08:49:46.389 [info] > git config --get commit.template [2ms]
+2024-11-29 08:49:46.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/audio-final refs/remotes/audio-final [5ms]
+2024-11-29 08:49:46.437 [info] > git status -z -uall [23ms]
+2024-11-29 08:49:46.447 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-11-29 08:49:48.108 [info] > git status -z -uall [1815ms] (cancelled)
+2024-11-29 08:51:36.672 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:51:41.377 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ubuntu/Project-Agora/.git/HEAD'
+2024-11-29 08:51:41.403 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ubuntu/Project-Agora/.git/config'
+2024-11-29 08:51:41.423 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ubuntu/Project-Agora/.git/HEAD'
+2024-11-29 08:51:41.444 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ubuntu/Project-Agora/.git/config'
+2024-11-29 08:51:42.072 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:51:43.356 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-29 08:51:51.990 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-29 08:52:06.119 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-29 08:52:25.076 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-29 08:52:33.298 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-29 08:52:38.548 [info] > git check-ignore -v -z --stdin [7ms]
+2024-11-29 08:52:45.675 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-29 08:53:27.796 [info] > git ls-files --stage -- /home/ubuntu/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [2ms]
+2024-11-29 08:53:27.807 [info] > git cat-file -s f0d48b1e3adfc6782757a9c6bbbbd6c011018396 [5ms]
+2024-11-29 08:53:27.836 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [7ms]
+2024-11-29 08:54:02.040 [info] > git check-ignore -v -z --stdin [15ms]
+2024-11-29 08:54:44.652 [info] > git ls-files --stage -- /home/ubuntu/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [3ms]
+2024-11-29 08:54:44.658 [info] > git cat-file -s f0d48b1e3adfc6782757a9c6bbbbd6c011018396 [1ms]
+2024-11-29 08:54:44.680 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [2ms]
+2024-11-29 08:54:59.093 [info] > git config --get commit.template [8ms]
+2024-11-29 08:54:59.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/newtest refs/remotes/newtest [2ms]
+2024-11-29 08:54:59.111 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-29 08:55:01.040 [info] > git status -z -uall [1941ms] (cancelled)
+2024-11-29 08:55:01.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/newtest refs/remotes/newtest [1180ms]
+2024-11-29 08:55:01.058 [info] > git config --local branch.newtest.vscode-merge-base [4ms]
+2024-11-29 08:55:01.058 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-29 08:55:01.087 [info] > git reflog newtest --grep-reflog=branch: Created from *. [12ms]
+2024-11-29 08:55:01.097 [info] > git ls-files --stage -- /home/ubuntu/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [11ms]
+2024-11-29 08:55:01.109 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to newtest [13ms]
+2024-11-29 08:55:01.121 [info] > git cat-file -s f0d48b1e3adfc6782757a9c6bbbbd6c011018396 [12ms]
+2024-11-29 08:55:01.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-29 08:55:01.138 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-11-29 08:55:01.138 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-29 08:55:01.138 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-29 08:55:01.162 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OvVideo.js [4ms]

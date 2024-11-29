@@ -1,0 +1,6 @@
+MONGODB_URI=mongodb+srv://whirae:12345@cluster0.afvft.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+AWS_BUCKET_NAME=projectagorabucket
+AWS_ACCESS_KEY_ID=AKIA6ODUZXQ4Q4H77TH2
+AWS_SECRET_ACCESS_KEY=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
+PORT=3000
+JWT_SECRET=magic_number

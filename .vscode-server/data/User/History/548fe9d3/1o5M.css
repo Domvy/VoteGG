@@ -1,0 +1,66 @@
+/* src/components/Elements/openvidu/OpenviduFinal.css */
+
+.openvidu-final {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;         /* 여러 줄로 배치 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center;     /* 세로 중앙 정렬 */
+    gap: 10px;               /* 요소 사이의 간격 */
+}
+
+.user-video {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    background-color: black; /* 비디오가 없을 때 배경색 표시 */
+}
+
+.user-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.leftstream-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+  }

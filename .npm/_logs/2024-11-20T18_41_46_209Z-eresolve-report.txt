@@ -1,0 +1,18 @@
+'Log files:
+/home/ubuntu/.npm/_logs/2024-11-20T18_41_46_209Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: openvidu-react@2.30.0
+Found: react@17.0.1
+node_modules/react
+  react@"17.0.1" from the root project
+
+Could not resolve dependency:
+peer react@"^18.0" from react-redux@9.1.2
+node_modules/react-redux
+  react-redux@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

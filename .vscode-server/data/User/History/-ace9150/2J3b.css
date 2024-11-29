@@ -1,0 +1,10 @@
+/* VideoContainer 관련 스타일 */
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.video-container video {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+}

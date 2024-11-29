@@ -1,0 +1,38 @@
+/* src/components/Elements/openvidu/OpenviduFinal.css */
+
+.openvidu-final {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-video {
+    margin: 10px;
+    position: relative;
+}
+
+.user-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}

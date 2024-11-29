@@ -1,0 +1,48 @@
+2024-11-28 04:33:27.173 [info] [main] 로그 수준: Info
+2024-11-28 04:33:27.175 [info] [main] "git"에서 찾은 git 유효성을 검사하는 중
+2024-11-28 04:33:27.175 [info] [main] "2.43.0"에서 git "git"을(를) 사용하는 중
+2024-11-28 04:33:27.175 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-28 04:33:27.175 [info] > git rev-parse --show-toplevel [10ms]
+2024-11-28 04:33:27.175 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-11-28 04:33:27.175 [info] [Model][openRepository] Opened repository: /home/ubuntu/Project-Agora
+2024-11-28 04:33:27.175 [info] > git config --get commit.template [29ms]
+2024-11-28 04:33:27.202 [info] > git rev-parse --show-toplevel [30ms]
+2024-11-28 04:33:27.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [236ms]
+2024-11-28 04:33:27.873 [info] > git status -z -uall [358ms]
+2024-11-28 04:33:27.874 [info] > git rev-parse --show-toplevel [417ms]
+2024-11-28 04:33:27.957 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [413ms]
+2024-11-28 04:33:28.115 [info] > git check-ignore -v -z --stdin [219ms]
+2024-11-28 04:33:28.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [93ms]
+2024-11-28 04:33:28.184 [info] > git rev-parse --show-toplevel [237ms]
+2024-11-28 04:33:28.278 [info] > git config --local branch.main.vscode-merge-base [94ms]
+2024-11-28 04:33:28.318 [info] > git config --get commit.template [214ms]
+2024-11-28 04:33:29.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [702ms]
+2024-11-28 04:33:29.162 [info] > git rev-parse --show-toplevel [881ms]
+2024-11-28 04:33:29.271 [info] > git merge-base refs/heads/main refs/remotes/origin/main [213ms]
+2024-11-28 04:33:29.364 [info] > git rev-parse --show-toplevel [123ms]
+2024-11-28 04:33:29.386 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-28 04:33:29.467 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [256ms]
+2024-11-28 04:33:29.486 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [58ms]
+2024-11-28 04:33:29.495 [info] > git diff --name-status -z --diff-filter=ADMR ee324f52e897252e3247c75fc6476f695944853c...refs/remotes/origin/main [173ms]
+2024-11-28 04:33:29.505 [info] > git ls-files --stage -- /home/ubuntu/Project-Agora/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [39ms]
+2024-11-28 04:33:29.592 [info] > git status -z -uall [36ms]
+2024-11-28 04:33:29.592 [info] > git cat-file -s dc74bab6964c390a0513f9da4ac56f8d056c6985 [69ms]
+2024-11-28 04:33:29.632 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [46ms]
+2024-11-28 04:34:00.938 [info] > git fetch [904ms]
+2024-11-28 04:34:00.938 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/Domvy/Project-Agora.git/'
+2024-11-28 04:34:00.985 [info] > git config --get commit.template [26ms]
+2024-11-28 04:34:00.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-28 04:34:01.020 [info] > git status -z -uall [17ms]
+2024-11-28 04:34:01.033 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-11-28 04:34:01.313 [info] > git ls-files --stage -- /home/ubuntu/Project-Agora/openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [6ms]
+2024-11-28 04:34:01.337 [info] > git cat-file -s dc74bab6964c390a0513f9da4ac56f8d056c6985 [6ms]
+2024-11-28 04:34:01.376 [info] > git show --textconv :openvidu-tutorials/openvidu-react/src/components/Elements/openvidu/OpenviduFinal.js [9ms]
+2024-11-28 04:34:23.254 [info] > git config --get commit.template [5ms]
+2024-11-28 04:34:23.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-28 04:34:23.270 [info] > git status -z -uall [8ms]
+2024-11-28 04:34:23.274 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]

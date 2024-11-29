@@ -1,0 +1,23 @@
+/* src/components/RightSidebar/RightSidebar.css */
+
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ddd;
+
+  width: 520px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+

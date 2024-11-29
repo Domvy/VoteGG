@@ -1,0 +1,12 @@
+2024-11-23 14:18:27.634 [info] 
+
+
+
+
+2024-11-23 14:18:27.634 [info] Extension host agent started.
+2024-11-23 14:18:27.677 [error] [<unknown>][872d44ed][ManagementConnection] Unknown reconnection token (never seen).
+2024-11-23 14:18:32.168 [info] [<unknown>][ae76c9d9][ManagementConnection] New connection established.
+2024-11-23 14:18:32.186 [info] [<unknown>][d110c33c][ExtensionHostConnection] New connection established.
+2024-11-23 14:18:32.197 [info] [<unknown>][d110c33c][ExtensionHostConnection] <13539> Launched Extension Host Process.
+2024-11-23 14:18:32.393 [info] [<unknown>][d110c33c][ExtensionHostConnection] <13539><stderr> Error reading NLS messages file /home/ubuntu/.vscode-server/data/clp/3e5f309cded99583ab37e0d647ed0d1b.ko/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/ubuntu/.vscode-server/data/clp/3e5f309cded99583ab37e0d647ed0d1b.ko/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/nls.messages.json'
+

@@ -1,0 +1,25 @@
+2024-11-23 14:18:37.337 [info] 
+
+
+
+
+2024-11-23 14:18:37.367 [info] Extension host agent started.
+2024-11-23 14:18:37.501 [error] [<unknown>][8f164a10][ExtensionHostConnection] Unknown reconnection token (never seen).
+2024-11-23 14:18:37.507 [error] [<unknown>][dba1d0d5][ManagementConnection] Unknown reconnection token (never seen).
+2024-11-23 14:18:53.864 [info] [<unknown>][22b90f1c][ExtensionHostConnection] New connection established.
+2024-11-23 14:18:53.891 [info] [<unknown>][22b90f1c][ExtensionHostConnection] <13935> Launched Extension Host Process.
+2024-11-23 14:18:53.899 [info] [<unknown>][7249bf79][ManagementConnection] New connection established.
+2024-11-23 14:18:56.319 [error] CodeExpectedError: Could not find pty on pty host
+    at k.U (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:54:30837)
+    at k.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26037)
+    at D.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21308)
+    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5378)
+    at c.s (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5506)
+    at c.q (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4947)
+    at w.value (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4247)
+    at i.B (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at i.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/ubuntu/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/out/vs/platform/terminal/node/ptyHostMain.js:25:27395)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
