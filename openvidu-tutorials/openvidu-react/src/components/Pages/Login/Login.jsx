@@ -40,7 +40,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <h2>Login</h2>
-      <p>Enter your details to sign in to your account</p>
+      <p>아이디와 비밀번호를 입력하세요.</p>
       <form className="login-form" onSubmit={(e) => e.preventDefault()}>
         <div className="input-wrapper">
           <span className="input-icon">👤</span>
@@ -48,7 +48,7 @@ const Login = () => {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="Enter your username"
+            placeholder="Enter your ID"
             required
           />
         </div>
@@ -58,13 +58,15 @@ const Login = () => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            placeholder="Enter your password"
+            placeholder="Enter your Password"
             required
           />
         </div>
         {error && <p className="error-message">{error}</p>}
+
         <button type="button" onClick={handleLogin} className="login-login-button">
           Login In
+
         </button>
       </form>
 
@@ -76,7 +78,7 @@ const Login = () => {
       </div>
 
       <a href="/signup" className="signup-link">
-        Don't have an account? Signup Now
+      <h3>아이디가 없다면? 회원가입</h3>
       </a>
     </div>
   );
