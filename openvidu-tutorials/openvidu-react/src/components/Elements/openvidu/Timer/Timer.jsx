@@ -1,4 +1,3 @@
-// Timer.jsx
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useSocket from "../../../useSocket";
@@ -9,7 +8,7 @@ import { useRecoilState } from 'recoil';
 import { resetTimerState } from '../../../../stores/TimerAtom'; // 수정된 경로
 import { registerSetResetTimerFunc } from '../../../../stores/setTimerState'; // 수정된 경로
 
-const Timer = ({ isObserver }) => {
+const Timer = ({ isObserver, setTimerDuration }) => {
   const { roomNumber } = useParams();
   const roomId = roomNumber;
   const socket = useSocket("/timer", roomId);
@@ -22,6 +21,7 @@ const Timer = ({ isObserver }) => {
   const [resultData, setResultData] = useState(null);
   const [resetTimer, setResetTimer] = useRecoilState(resetTimerState);
   const [showVoteStatistic, setShowVoteStatistic] = useState(false); // 상태로 관리
+  
   // setResetTimer 함수를 헬퍼 함수에 등록
   useEffect(() => {
     registerSetResetTimerFunc(setResetTimer);
@@ -57,26 +57,13 @@ const Timer = ({ isObserver }) => {
       setResultData(data);
     };
 
-    // phaseChange 이벤트 받기
-    const handlePhaseChange = (data) => {
-      const { newPhase, newTurn } = data;
-      console.log("Phase change detected:", data);
-
-      // OpenviduFinal.js의 handlePhaseChange 함수 호출
-      if (window.handlePhaseChange) {
-        window.handlePhaseChange(newPhase, newTurn);
-      }
-    };
-
     socket.on('timerUpdate', handleTimerUpdate);
     socket.on('timerFinished', handleTimerFinished);
-    socket.on('phaseChange', handlePhaseChange); // 추가된 부분
 
     // 클린업
     return () => {
       socket.off('timerUpdate', handleTimerUpdate);
       socket.off('timerFinished', handleTimerFinished);
-      socket.off('phaseChange', handlePhaseChange); // 추가된 부분
     };
   }, [socket]);
 
@@ -105,6 +92,16 @@ const Timer = ({ isObserver }) => {
     }
   };
 
+  // 타이머 시간을 설정하는 핸들러
+  const handleSetTimerDuration = (duration) => {
+    if (socket) {
+      socket.emit('set_timer_duration', { roomId, duration });
+      if (setTimerDuration) {
+        setTimerDuration(duration); // 상위 컴포넌트로 전달
+      }
+    }
+  };
+
   // 로딩 상태 처리
   if (timeLeft === null) {
     return <div>로딩 중...</div>;
@@ -119,69 +116,22 @@ const Timer = ({ isObserver }) => {
       .padStart(2, "0")}`.trim();
   };
 
-  // currentIndex 값을 변환하는 함수
-  const getIndexCharacter = (index) => {
-    const indexMapping = ["발언 준비", "발언 중", "ㄷ", "ㄹ"];
-    return indexMapping[index] || "알 수 없음"; // 범위를 벗어난 경우 처리
-  };
-
-  // currentIndex에 따른 클래스 이름 반환 함수
-  const getStatusClass = (index) => {
-    switch (index) {
-      case 0:
-        return "status-preparing";
-      case 1:
-        return "status-speaking";
-      case 2:
-        return "status-third";
-      case 3:
-        return "status-fourth";
-      default:
-        return "status-unknown";
-    }
-  };
-
-  // ///////////////////////
-  const handleButtonClick = () => {
-    setShowVoteStatistic(true); // 버튼 클릭 시 컴포넌트 표시
-  };
-
-  const handleClose = () => {
-    setShowVoteStatistic(false); // 닫기 버튼 클릭 시 컴포넌트 숨김
-  };
-  ///////////////////////////////////////////////
-
   return (
     <div>
       <div className="timer-wrapper">
         <div className="status-and-button">
-          <span className={`current-status ${getStatusClass(currentIndex)}`}>
-            {!isRunning && !timerFinished
-              ? "토론 준비" // 토론 시작 전
-              : timerFinished
-                ? "토론 끝" // 토론 종료
-                : getIndexCharacter(currentIndex)} {/* 토론 진행 중 */}
-          </span>
+          <span className={`current-status`}>{!isRunning && !timerFinished ? "토론 중" : timerFinished ? "토론 끝" : "진행 중"}</span>
           {!isObserver && (
             <div>
-              <button
-                className="start-button"
-                onClick={handleStart}
-                disabled={
-                  isRunning || // 타이머 실행 중
-                  timeLeft <= 0 || // 시간이 없을 때
-                  currentCycle >= totalCycles // 모든 사이클 완료 시
-                }
-              >
-                토론 시작
-              </button>
-              <button
-                className="stop-button"
-                onClick={handleStop}
-                disabled={!isRunning} // 타이머가 실행 중일 때만 가능
-              >
-                타이머 종료
-              </button>
+              <button className="start-button" onClick={handleStart} disabled={isRunning || timeLeft <= 0 || currentCycle >= totalCycles}>토론 시작</button>
+              <button className="stop-button" onClick={handleStop} disabled={!isRunning}>타이머 종료</button>
+              <button className="reset-button" onClick={handleReset}>타이머 초기화</button>
+              <div className="set-timer-buttons">
+                <button onClick={() => handleSetTimerDuration(5 * 60)}>5분</button>
+                <button onClick={() => handleSetTimerDuration(10 * 60)}>10분</button>
+                <button onClick={() => handleSetTimerDuration(15 * 60)}>15분</button>
+                <button onClick={() => handleSetTimerDuration(30 * 60)}>30분</button>
+              </div>
             </div>
           )}
         </div>
@@ -196,13 +146,6 @@ const Timer = ({ isObserver }) => {
 
       {/* 타이머가 끝나면 모달을 띄움 */}
       {timerFinished && <VoteStatistic roomNumber={roomId} resultData={resultData} onClose={() => setTimerFinished(false)} />}
-     
-      {/* /////////////////////// */}
-      <div>
-        <button onClick={handleButtonClick}>하드 코딩된결과 보기</button>
-        {showVoteStatistic && <VoteStatistichard onClose={handleClose} />}
-      </div>
-      {/* /////////////////////// */}
     </div>
   );
 };

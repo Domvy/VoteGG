@@ -598,6 +598,7 @@ class OpenviduFinal extends Component {
             <div>
                 <div className="openvidu-final">
                     <div className="video-container">
+                    <div>텟스ㄴㅁㄴㅇ트입니다.currentLeftUser</div>
                         {/* 왼쪽 참가자 */}
                         <div className={`left-video ${currentTurn === 'left' && currentLeftUser ? 'active-speaker' : 'none-active-speaker'}`}>
                             {currentLeftUser ? (
@@ -613,7 +614,7 @@ class OpenviduFinal extends Component {
                                 <img className="empty-slot" src="/unknown.png" />
                             )}
                         </div>
-
+                        
                         {/* 오른쪽 참가자 */}
                         <div className={`right-video ${currentTurn === 'right' && currentRightUser ? 'active-speaker' : 'none-active-speaker'}`}>
                             {currentRightUser ? (
@@ -629,6 +630,7 @@ class OpenviduFinal extends Component {
                                 <img className="empty-slot" src="/unknown.png" />
                             )}
                         </div>
+                        <div>텟스트입니다.</div>
                     </div>
                 </div>
                 <div>
