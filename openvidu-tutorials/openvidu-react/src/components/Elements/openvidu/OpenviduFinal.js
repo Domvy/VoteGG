@@ -1518,7 +1518,7 @@ componentDidMount() {
                                                     onClick={(e) => e.stopPropagation()} // input 클릭 시 부모의 클릭 이벤트 방지
                                                     onKeyDown={(e) => {
                                                         if (e.key === 'Enter') {
-                                                            this.toggleLeftUserEdit(); // Enter 키 입력 시 편집 모드 종료
+                                                            this.toggleLeftUserEdit(); // 주석추가 입력 시 편집 모드 종료
                                                         }
                                                     }}
                                                 />
