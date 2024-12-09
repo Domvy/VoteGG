@@ -1,3 +1,5 @@
+룸컨트롤 css
+
 .control-wrap{
   /* background-color: #f8f8f8;  */
   position: absolute; /* or relative */
@@ -40,4 +42,97 @@
   padding: 10px 20px;
   border-radius: 5px; /* 모서리 둥글게 */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+
+.transcript-button {
+  position: absolute;
+  right: 20px;  /* 오른쪽 정렬 */
+  top: 20px;    /* 상단에서 20px 떨어짐 */
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.transcript-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.transcript-modal.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 모달 오버레이 추가 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.transcript-container {
+  margin-top: 40px;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.transcription-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.modal-content h2 {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
 }

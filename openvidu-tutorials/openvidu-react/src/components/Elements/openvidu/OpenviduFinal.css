@@ -300,3 +300,79 @@
     /* margin-top: -24px; */
     
 }
+
+/* 녹음 컨트롤 스타일 */
+.transcription-controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.record-button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.record-button.recording {
+    background-color: #dc3545;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* 변환된 텍스트 기록 스타일 */
+.transcription-history {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.transcription-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.transcription-item .speaker {
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.transcription-item .timestamp {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-left: 10px;
+}
+
+
+.transcription-container {
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.transcription-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.transcription-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
