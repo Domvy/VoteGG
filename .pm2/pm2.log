@@ -446,3 +446,13 @@
 2024-12-11T11:53:20: PM2 log: pid=413824 msg=process killed
 2024-12-11T11:53:20: PM2 log: App [client:1] starting in -fork mode-
 2024-12-11T11:53:20: PM2 log: App [client:1] online
+2024-12-12T12:22:51: PM2 log: Stopping app:server id:0
+2024-12-12T12:22:51: PM2 log: App [server:0] exited with code [0] via signal [SIGINT]
+2024-12-12T12:22:51: PM2 log: pid=446885 msg=process killed
+2024-12-12T12:22:51: PM2 log: App [server:0] starting in -fork mode-
+2024-12-12T12:22:51: PM2 log: App [server:0] online
+2024-12-12T12:22:51: PM2 log: Stopping app:client id:1
+2024-12-12T12:22:51: PM2 log: App [client:1] exited with code [0] via signal [SIGINT]
+2024-12-12T12:22:52: PM2 log: pid=446902 msg=process killed
+2024-12-12T12:22:52: PM2 log: App [client:1] starting in -fork mode-
+2024-12-12T12:22:52: PM2 log: App [client:1] online
